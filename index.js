@@ -4,4 +4,5 @@ function lowerCaseDrivers(drivers){
   drivers.map (function(driver){
      newdriver.push(driver.toLowerCase())
   })
+  return newdriver
 }
