@@ -6,3 +6,11 @@ function lowerCaseDrivers(drivers){
   })
   return newdriver
 }
+
+function lowerCaseDrivers(drivers){
+  const newdriver=[]
+  drivers.map (function(driver){
+     newdriver.push(driver.toLowerCase())
+  })
+  return newdriver
+}
