@@ -11,7 +11,7 @@ function nameToAttributes(drivers){
   const newdriver={}
   drivers.map (function(driver){
     let name=driver.split(" ")
-    Object.assign({},newdriver,{firstName:name[0],lastName:name[1]})
+    (firstName:name[0],lastName:name[1])
   })
   return newdriver
 }
