@@ -11,7 +11,7 @@ function nameToAttributes(drivers){
   const newdriver={}
   drivers.map (function(driver){
     let name=driver.split(" ")
-     newdriver.firstname=name[0]
+     newdriver.firstName=name[0]
      newdriver.lastName=name[1]
   return newdriver
 }
