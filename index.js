@@ -19,7 +19,7 @@ function nameToAttributes(drivers){
 function attributesToPhrase(drivers){
   const newdriver=[]
   drivers.map (function(driver){
-   `
+   newdriver.push(`"<NAME OF DRIVER> is from <HOMETOWN>"`)
   })
   return newdriver
 }
