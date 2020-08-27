@@ -7,7 +7,7 @@ function lowerCaseDrivers(drivers){
   return newdriver
 }
 
-function lowerCaseDrivers(drivers){
+function nameToAttributes(drivers){
   const newdriver=[]
   drivers.map (function(driver){
      newdriver.push(driver.toLowerCase())
