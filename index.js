@@ -16,7 +16,7 @@ function nameToAttributes(drivers){
   return newdriver
 }
 
-function nameToAttributes(drivers){
+function attributesToPhrase(drivers){
   const newdriver=[]
   drivers.map (function(driver){
     let name=driver.split(" ")
