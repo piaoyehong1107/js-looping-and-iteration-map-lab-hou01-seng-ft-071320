@@ -13,5 +13,7 @@ function nameToAttributes(drivers){
     let name=driver.split(" ")
      newdriver.firstName=name[0]
      newdriver.lastName=name[1]
-  return newdriver
+  
 })
+return newdriver
+}
